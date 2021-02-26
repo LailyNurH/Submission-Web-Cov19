@@ -1,0 +1,228 @@
+
+body {
+    background-color: rgb(238, 235, 235);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 2px;
+    padding: 2px;
+    perspective: 1px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+header {
+    margin-bottom: 5px;
+    position: sticky;
+    transform-style: inherit;
+    width: 100vw;
+    margin-right: 1px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    height: 500px;
+    width: 100%;
+    background-image:url('../asset/covid1.jpg') ;
+    background-size: cover;
+    text-align: center;
+    color: white;
+ }
+ .jumbotron h1{
+    color: whitesmoke;
+    text-shadow: 2px 10px 0px black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 200px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ }
+
+
+.jumbotron h2 {
+    color: red;
+    text-shadow: 10px 2px 0px black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+nav {
+    
+    position: sticky;
+    width: 100%;
+    top: 0;
+    justify-content: space-around;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
+	padding: 10px ;
+	box-sizing: border-box;
+    background-color: #9e1301;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+    @media (min-width: 600px){
+        padding: 20px;
+    }
+ }
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+ nav a:hover {
+    font-weight: bold;
+ }
+ main{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     align-items: center;
+ }
+ main h1{
+     text-align: center;
+     font-size: 50px ;
+ }
+ .container {
+    display: flex;
+    width: 80%;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.fcolor{
+    color: cadetblue;
+}
+.fcolor1{
+    color: orange;
+}
+.fcolor2{
+    color: rgb(67, 170, 67);
+}
+.fcolor3{
+    color: rgb(224, 19, 19);
+}
+ .box {
+    flex-basis: 20%;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card {
+    float: left;
+    width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+ }
+ .card1 {
+    float: left;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    background-color: rgb(238, 235, 235);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    padding-right: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+ }
+ .img{
+     align-items: center;
+     width: 300px;
+ }
+ aside {
+    position: sticky;
+    align : center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 5px;
+ }
+
+.container1 {
+    display: flex;
+    width: 80%;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.box1 {
+    margin-top: 10px;
+    flex-basis: 20%;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: rgb(238, 235, 235);
+    margin: 20px;
+    border-radius: 10px;
+}
+footer {
+    width: 100%;
+    top: 0;
+    color: white;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
+	padding: 10px ;
+	box-sizing: border-box;
+    background-color: #9e1301;
+ 
+}
+.footer {
+    width: 100%;
+    top: 0;
+    color: white;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
+	padding: 10px ;
+	box-sizing: border-box;
+    background-color: #9e1301;
+ 
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+@media screen and (max-width: 800px) {
+    .box,.box1 {
+        width: 50%; 
+        padding: 10px;
+    }
+ }
